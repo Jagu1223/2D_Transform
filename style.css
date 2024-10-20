@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+}
+
+/* div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 30px;
+} */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.a,
+.b,
+.c,
+.d {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.a {
+  background-color: red;
+}
+.b {
+  background-color: green;
+}
+.c {
+  background-color: violet;
+}
+.d {
+  background-color: blue;
+}
+
+.a:hover {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.b:hover {
+  transform: translate(40px, 40px);
+  transition: 1s;
+}
+
+.c:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.d:hover {
+  transform: skew(45deg);
+  transition: 1s;
+}
